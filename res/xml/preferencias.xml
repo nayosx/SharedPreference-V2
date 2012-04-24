@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+<CheckBoxPreference
+    android:key="carga_pref"
+    android:title="Preferencias de lectura"
+    android:summary="Se cargan las preferencias de lectura" />
+<ListPreference
+    android:key="colores_lista"
+    android:title="Colores del texto"
+    android:summary="Se escoge el color del texto"
+    android:entries="@array/color_text"
+    android:entryValues="@array/tam_text_use"
+    android:defaultValue="1" />
+<EditTextPreference
+    android:key="tamano_letras"
+    android:title="Tamaño de texto"
+    android:summary="Se escoje el tamaño del texto"
+    android:dialogTitle="@string/dialopref"
+    />
+</PreferenceScreen>

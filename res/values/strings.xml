@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Preferenciasv2Activity!</string>
+    <string name="app_name">Preferencias v2</string>
+    <string-array name="color_text">
+        <item >Celeste</item>
+        <item >Rojo</item>
+        <item >verde</item>
+    </string-array>
+    <string-array name="tam_text_use">
+        <item >0</item>
+        <item >1</item>
+        <item >2</item>
+    </string-array>
+    <string name="dialopref">Selecion del tamaño del texto</string>
+
+</resources>
